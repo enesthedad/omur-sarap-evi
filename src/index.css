@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+  background-image: url(./imgs/landing.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#products {
+  background-image: url(./imgs/wines.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  background-image: url(./imgs/about.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-hero {
+  background-image: url(./imgs/about-hero.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact {
+  background-image: url(./imgs/contact.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.divider svg {
+  position: relative;
+  display: block;
+  width: calc(121% + 1.3px);
+  height: 59px;
+}
+
+.divider .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1710318999 {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1710318999 svg {
+  position: relative;
+  display: block;
+  width: calc(121% + 1.3px);
+  height: 87px;
+}
+#card-1 {
+  background: url("/src/imgs/card1.webp");
+  background-position: center;
+  background-size: cover;
+}
+#card-2 {
+  background: url("/src/imgs/card2.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#card-3 {
+  background: url("/src/imgs/card3.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#card-4 {
+  background: url("/src/imgs/card4.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#card-5 {
+  background: url("/src/imgs/card5.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#card-6 {
+  background: url("/src/imgs/card6.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#card-7 {
+  background: url("/src/imgs/card7.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#card-8 {
+  background: url("/src/imgs/card8.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card-9 {
+  background: url("/src/imgs/card9.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card-10 {
+  background: url("/src/imgs/card10.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#assyrian-wine {
+  background: url("/src/imgs/assyrian-wine.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#assyrians {
+  background: url("/src/imgs/asssyrians.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-danger {
+  --tw-bg-opacity: 1;
+  background-color: #a7192a;
+}
+#wine-hero {
+  background: url("/src/imgs/wine-hero.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#midyat {
+  background: url("/src/imgs/midyat.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#assyrians-hero {
+  background: url("/src/imgs/assyrian-hero.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#prizes {
+  background: url("/src/imgs/prizes.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-page {
+  min-height: 100svh;
+}
+.full-screen {
+  min-height: 100svh;
+}
